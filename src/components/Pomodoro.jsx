@@ -18,7 +18,6 @@ const Pomodoro = () => {
     React.useEffect(() => {
         document.title = `${formatTime(time)} - Pomodoro Timer`;
     }, [time]);
-    
 
     React.useEffect(() => {
         let intervalo = null;
